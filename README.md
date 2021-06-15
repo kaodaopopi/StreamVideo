@@ -1,7 +1,11 @@
-# First
-Aforge.Net package is needed to capture and encode images
-# Second
-The bin of Release in the Aforge.Net package and ffmpeg of Externals
-Put all the dll files inside into the bin of the files to be compiled
-# Third
-Change the startup of App.config to (startup useLegacyV2RuntimeActivationPolicy="true")
+# 事前準備
+
+## 第一步
+使用`Aforge.Net`套件(用來抓取與編碼圖像)
+
+## 第二步
+Aforge.Net 包中 `Release 的 bin` 和 `Externals 的 ffmpeg`將裡面的所有dll文件放入要編譯的文件的bin中
+
+## 第三步
+更改 App.config 的 `<startup useLegacyV2RuntimeActivationPolicy="true">`
+
